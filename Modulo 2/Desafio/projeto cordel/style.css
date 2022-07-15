@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+}
+
+header h1 {
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 3.5em;
+}
+
+header h3 {
+    text-align: center;
+}
+
+
+#p1 {
+    
+    width: 170px;
+}
