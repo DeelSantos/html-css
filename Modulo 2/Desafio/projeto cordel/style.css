@@ -51,6 +51,10 @@ section {
     
 }
 
+section > p {
+    padding-bottom: 3em;
+}
+
 
 .normal {
     background-color: white;
@@ -61,13 +65,26 @@ section {
 .imagem {
     background-color: #464545;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px #00000067;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
-    padding: 10px;
-    width: 300px;
-    background-color: #0000002d;
+    display: inline-block;
+    padding: 5px;
+    background-color: #46454565;
+    text-shadow: 1px 1px 0px black;
+    
 }
 
+#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right, center ;
+    background-size: cover;
+}
 
+#img02 {
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+}
 
