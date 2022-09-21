@@ -19,19 +19,22 @@
             border-collapse: collapse;
         }
 
-        th {
-            background-color: antiquewhite;
-        }
-
-        td {
-            background-color: antiquewhite;
-            font-weight: 500;
-        }
-
         th, td {
             border: solid 1px black;
             padding: 0.2em 1em;
             
+        }
+
+        .coluna__nome {
+            background-color: green;
+        }
+
+        .coluna__sexo {
+            background-color: yellow;
+        }
+
+        .coluna__idade {
+            background-color: blue;
         }
     </style>
 </head>
@@ -39,6 +42,12 @@
     <h1>Exercicio de Tabela </h1>
 
     <table>
+        <colgroup>
+            <col class="coluna__nome">
+            <col class="coluna__sexo">
+            <col class="coluna__idade">
+            <col class="coluna__profissao">
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>
